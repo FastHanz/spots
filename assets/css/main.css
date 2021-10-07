@@ -1,0 +1,122 @@
+header-parent {
+  transition: all 0.3s ease;
+}
+
+.static-header-parent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.header-container {
+  position: relative;
+}
+
+.top-header {
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  min-height: 80px;
+  display: flex;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.logo-wrapper {
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.spots-logo {
+  height: 28px;
+  margin: 0;
+}
+
+.hamburger-menu-container {
+  display: none;
+  height: 18px;
+}
+
+.line {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+}
+
+.hamburger-menu-container {
+  display: flex;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+
+.header-container > .top-header {
+  padding: 25px !important;
+}
+
+.link-mobile {
+  visibility: hidden;
+  position: absolute;
+  z-index: 97;
+  width: 100%;
+  padding: 105px 25px 25px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  -webkit-transform: translateY(-360px);
+  transform: translateY(-360px);
+  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+}
+
+.link-container {
+  display: flex;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.header-parent .header-container .link-mobile .link-container .link {
+  color: #000;
+  font-family: Fira Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sticky-header-parent {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+  -webkit-transform: translateY(-120px);
+  transform: translateY(-120px);
+  visibility: hidden;
+}
+
+.header-container {
+  position: relative;
+}
+
+/*# sourceMappingURL=main.css.map */
