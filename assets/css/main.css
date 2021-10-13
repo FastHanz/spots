@@ -1,4 +1,4 @@
-header-parent {
+.header-parent {
   transition: all 0.3s ease;
 }
 
@@ -191,7 +191,7 @@ header-parent {
   visibility: hidden;
 }
 
-link-container {
+.link-container {
   width: 100%;
   display: flex;
   -moz-align-items: center;
@@ -271,6 +271,12 @@ link-container {
   z-index: 0;
   width: 100%;
   height: 100%;
+}
+
+.home-section-1-parent .bg-img-cover {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 .inner-container {
@@ -618,7 +624,7 @@ p :last-child {
   padding: 70px 60px;
 }
 
-inner-container {
+.inner-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
