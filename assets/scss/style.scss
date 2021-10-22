@@ -310,11 +310,25 @@
     line-height: 43px;
     max-width: 375px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
-.title {
-    max-width: 300px;
-    margin-bottom: 25px;
+h1, h2 {
+    padding: 0;
+    color: inherit;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Fira Sans,sans-serif;
+    color: #646464;
+    max-width: 375px;
+    margin-bottom: 30px;
 }
 
 .background {
@@ -519,7 +533,7 @@
 
 .blue-ornament {
     top: 210px;
-    left: -25px;
+    left: 25px;
 }
 
 .ornament {
@@ -672,6 +686,10 @@ p :last-child {
     width: 100%;
 }
 
+.partner-logo {
+    width: 110px;
+}
+
 .separator {
     width: 100%;
     height: 1px;
@@ -690,6 +708,17 @@ p :last-child {
     -ms-flex-pack: center;
 }
 
+.footer-parent {
+    background-color: #15183a;
+    width: 100%;
+}
+
+.inner-container {
+    max-width: 1280px;
+    padding: 90px 150px 50px;
+    margin: 0 auto;
+}
+
 .inner-container {
     display: flex;
     -moz-flex-direction: column;
@@ -706,6 +735,19 @@ p :last-child {
     margin: 0 auto;
 }
 
+.top-container {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.column-one {
+    width: 60%;
+}
+
+.spots-logo {
+    height: 29px;
+    margin-bottom: 30px;
+}
 .title {
     font-family: Fira Sans,sans-serif;
     font-size: 33px;
