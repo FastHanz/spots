@@ -700,7 +700,7 @@ p :last-child {
 }
 .footer-parent {
   background-color: #15183a;
-  width: 100%;
+  width: 200%;
 }
 .inner-container {
   max-width: 1280px;
@@ -747,17 +747,13 @@ a {
   margin-top: 15px;
 }
 .link-container a {
-  line-height: 25px;
-  font-size: 12px;
-}
-.link-container a {
-  font-family: Fira Sans, sans-serif;
+  font-family: Fira Sans,sans-serif;
   font-weight: 500;
   line-height: 22px;
-  color: rgba(255, 255, 255, .5);
+  color: hsla(0,0%,100%,.5);
   font-size: 13px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 .column-container.column-three {
   -ms-align-self: flex-start;
@@ -839,11 +835,6 @@ img {
 }
 .text-link-container {
   display: flex;
-}
-.text-link-container a {
-  margin-left: 5px;
-  margin-right: 20px;
-  margin-bottom: 10px;
 }
 .text-link-container a {
   font-size: 13px;

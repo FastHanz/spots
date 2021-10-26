@@ -783,7 +783,7 @@ ornament.green-ornament-left {
 
 .footer-parent {
     background-color: #15183a;
-    width: 100%;
+    width: 200%;
 }
 
 .inner-container {
@@ -837,11 +837,6 @@ a {
     -ms-align-items: flex-start;
     align-items: flex-start;
     margin-top: 15px;
-}
-
-.link-container a {
-    line-height: 25px;
-    font-size: 12px;
 }
 
 .link-container a {
@@ -950,12 +945,6 @@ img {
 
 .text-link-container {
     display: flex;
-}
-
-.text-link-container a {
-    margin-left: 5px;
-    margin-right: 20px;
-    margin-bottom: 10px;
 }
 
 .text-link-container a {
