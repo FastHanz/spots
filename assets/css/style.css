@@ -137,19 +137,7 @@
   justify-content: space-between;
   -ms-flex-pack: space-between;
 }
-
-.sticky-header-parent {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
-  transform: translateY(-120px);
-  visibility: hidden;
-}
-
-.link {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link {
   color: #000;
   font-family: Fira Sans, sans-serif;
   font-size: 13px;
@@ -157,19 +145,7 @@
   font-weight: 500;
   transition: all 0.3s ease;
 }
-
-.sticky-header-parent {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
-  transform: translateY(-120px);
-  visibility: hidden;
-}
-
-.link-container {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container {
   width: 100%;
   display: flex;
   -moz-align-items: center;
@@ -180,8 +156,7 @@
   justify-content: space-between;
   -ms-flex-pack: space-between;
 }
-
-.hamburger-menu-container {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -190,15 +165,13 @@
   justify-content: space-between;
   -ms-flex-pack: space-between;
 }
-
-.line {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line {
   width: 22px;
   height: 2px;
   background-color: #000;
   transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
 }
-
-.link-mobile {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile {
   visibility: hidden;
   position: absolute;
   z-index: 97;
@@ -209,8 +182,7 @@
   transform: translateY(-360px);
   transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
 }
-
-.link-container {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -218,8 +190,7 @@
   -ms-align-items: center;
   align-items: center;
 }
-
-.link {
+.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container .link {
   color: #000;
   font-family: Fira Sans, sans-serif;
   font-size: 13px;
