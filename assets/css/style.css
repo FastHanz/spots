@@ -500,8 +500,7 @@
   width: 100%;
   padding: 70px 60px;
 }
-
-.inner-container {
+.home-section-4-parent .inner-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -516,8 +515,7 @@
   max-width: 1150px;
   margin: 0 auto;
 }
-
-.title {
+.home-section-4-parent .inner-container .title {
   text-align: center;
   font-family: Fira Sans, sans-serif;
   font-size: 33px;
@@ -525,14 +523,12 @@
   margin: 0 0 20px;
   color: #000;
 }
-
-.desc {
+.home-section-4-parent .inner-container .title .desc {
   font-family: Fira Sans, sans-serif;
   font-size: 14px;
   color: #646464;
 }
-
-.company-logo-container {
+.home-section-4-parent .inner-container .title .desc .company-logo-container {
   display: flex;
   -moz-align-items: center;
   -ms-align-items: center;
@@ -543,18 +539,15 @@
   -ms-flex-pack: space-between;
   width: 100%;
 }
-
-.partner-logo {
+.home-section-4-parent .inner-container .title .desc .company-logo-container .partner-logo {
   width: 80px;
 }
-
-.separator {
+.home-section-4-parent .inner-container .title .desc .company-logo-container .partner-logo .separator {
   width: 100%;
   height: 1px;
   background-color: #dedede;
 }
-
-.try-demo-parent {
+.home-section-4-parent .inner-container .title .desc .company-logo-container .partner-logo .separator .try-demo-parent {
   height: 100vh;
   padding: 0 25px;
   display: flex;
