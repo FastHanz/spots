@@ -1,161 +1,143 @@
 .header-parent {
     transition: all .3s ease;
-}
-
-.static-header-parent {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.header-container {
-    position: relative;
-}
-
-.top-header {
-    width: 100%;
-    position: absolute;
-    z-index: 98;
-    min-height: 80px;
-    display: flex;
-    -moz-justify-content: flex-start;
-    -ms-justify-content: flex-start;
-    justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-}
-
-*, :after, :before {
-    box-sizing: inherit;
-}
-
-.logo-wrapper {
-    display: flex;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    margin-right: 60px;
-}
-
-.spots-logo {
-    height: 28px;
-    margin: 0;
-}
-
-.hamburger-menu-container {
-    display: none;
-    height: 18px;
-}
-
-.line {
-    width: 22px;
-    height: 2px;
-    background-color: #000;
-    transition: all .3s cubic-bezier(.694,0,.335,1);
-}
-
-.hamburger-menu-container {
-    display: flex;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -moz-justify-content: space-between;
-    -ms-justify-content: space-between;
-    justify-content: space-between;
-    -ms-flex-pack: space-between;
-}
-
-.top-header {
-    padding: 25px!important;
-}
-
-.link-mobile {
-    visibility: hidden;
-    position: absolute;
-    z-index: 97;
-    width: 100%;
-    padding: 105px 25px 25px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
-    -webkit-transform: translateY(-360px);
-    transform: translateY(-360px);
-    transition: all .3s cubic-bezier(.694,0,.335,1);
-}
-
-.link-container {
-    display: flex;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-}
-
-.link {
-    color: #000;
-    font-family: Fira Sans,sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-}
-
-.sticky-header-parent {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    transition: all .3s cubic-bezier(.694,0,.335,1);
-    -webkit-transform: translateY(-120px);
-    transform: translateY(-120px);
-    visibility: hidden;
-}
-
-.header-container {
-    position: relative;
-}
-
-.top-header {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
-    padding: 15px 50px;
-}
-
-.logo-wrapper {
-    display: flex;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    margin-right: 60px;
-}
-
-.spots-logo {
-    height: 28px;
-    margin: 0;
-}
-
-.logo-wrapper {
-    display: flex;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    margin-right: 60px;
-}
-
-.link-container {
-    width: 100%;
-    display: flex;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    -moz-justify-content: space-between;
-    -ms-justify-content: space-between;
-    justify-content: space-between;
-    -ms-flex-pack: space-between;
+    .static-header-parent {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        .header-container {
+            position: relative;
+            .top-header {
+                width: 100%;
+                position: absolute;
+                z-index: 98;
+                min-height: 80px;
+                display: flex;
+                -moz-justify-content: flex-start;
+                -ms-justify-content: flex-start;
+                justify-content: flex-start;
+                -ms-flex-pack: flex-start;
+                -moz-align-items: center;
+                -ms-align-items: center;
+                align-items: center;
+                .logo-wrapper {
+                    display: flex;
+                    -moz-align-items: center;
+                    -ms-align-items: center;
+                    align-items: center;
+                    margin-right: 60px;
+                    .spots-logo {
+                        height: 28px;
+                        margin: 0;
+                        .hamburger-menu-container {
+                            display: none;
+                            height: 18px;
+                            .hamburger-menu-container {
+                                display: none;
+                                height: 18px;
+                                .line {
+                                    width: 22px;
+                                    height: 2px;
+                                    background-color: #000;
+                                    transition: all .3s cubic-bezier(.694,0,.335,1);
+                                    .hamburger-menu-container {
+                                        display: flex;
+                                        -moz-flex-direction: column;
+                                        flex-direction: column;
+                                        -moz-justify-content: space-between;
+                                        -ms-justify-content: space-between;
+                                        justify-content: space-between;
+                                        -ms-flex-pack: space-between;
+                                        .top-header {
+                                            padding: 25px!important;
+                                            .link-mobile {
+                                                visibility: hidden;
+                                                position: absolute;
+                                                z-index: 97;
+                                                width: 100%;
+                                                padding: 105px 25px 25px;
+                                                background-color: #fff;
+                                                box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+                                                -webkit-transform: translateY(-360px);
+                                                transform: translateY(-360px);
+                                                transition: all .3s cubic-bezier(.694,0,.335,1);
+                                                .link-container {
+                                                    display: flex;
+                                                    -moz-flex-direction: column;
+                                                    flex-direction: column;
+                                                    -moz-align-items: center;
+                                                    -ms-align-items: center;
+                                                    align-items: center;
+                                                    .link {
+                                                        color: #000;
+                                                        font-family: Fira Sans,sans-serif;
+                                                        font-size: 13px;
+                                                        font-weight: 500;
+                                                        line-height: 30px;
+                                                        text-align: center;
+                                                        .link {
+                                                            color: #000;
+                                                            font-family: Fira Sans,sans-serif;
+                                                            font-size: 13px;
+                                                            font-weight: 500;
+                                                            line-height: 30px;
+                                                            text-align: center;
+                                                            .sticky-header-parent {
+                                                                position: fixed;
+                                                                width: 100%;
+                                                                top: 0;
+                                                                left: 0;
+                                                                z-index: 99;
+                                                                transition: all .3s cubic-bezier(.694,0,.335,1);
+                                                                -webkit-transform: translateY(-120px);
+                                                                transform: translateY(-120px);
+                                                                visibility: hidden;
+                                                                .header-container {
+                                                                    position: relative;
+                                                                    .top-header {
+                                                                        background-color: #fff;
+                                                                        box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+                                                                        padding: 15px 50px;
+                                                                        .logo-wrapper {
+                                                                            display: flex;
+                                                                            -moz-align-items: center;
+                                                                            -ms-align-items: center;
+                                                                            align-items: center;
+                                                                            margin-right: 60px;
+                                                                            .spots-logo {
+                                                                                height: 28px;
+                                                                                margin: 0;
+                                                                                .link-container {
+                                                                                    width: 100%;
+                                                                                    display: flex;
+                                                                                    -moz-align-items: center;
+                                                                                    -ms-align-items: center;
+                                                                                    align-items: center;
+                                                                                    -moz-justify-content: space-between;
+                                                                                    -ms-justify-content: space-between;
+                                                                                    justify-content: space-between;
+                                                                                    -ms-flex-pack: space-between;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .sticky-header-parent {
@@ -613,56 +595,50 @@
             
             .column-left {
                 width: 100%;
+                .inner-container {
+                    display: flex;
+                    -moz-flex-direction: column;
+                    flex-direction: column;
+                    -moz-justify-content: center;
+                    -ms-justify-content: center;
+                    justify-content: center;
+                    -ms-flex-pack: center;
+                    -moz-align-items: center;
+                    -ms-align-items: center;
+                    align-items: center;
+                    width: 100%;
+                    max-width: 1150px;
+                    margin: 0 auto;
+                    .link-title {
+                        color: #fff;
+                        font-size: 13px;
+                        font-family: Fira Sans,sans-serif;
+                        font-weight: 400;
+                        margin: 0;
+                        .link-container {
+                            display: flex;
+                            -moz-flex-direction: column;
+                            flex-direction: column;
+                            -moz-align-items: flex-start;
+                            -ms-align-items: flex-start;
+                            align-items: flex-start;
+                            margin-top: 15px;
+                            .title {
+                                font-family: Fira Sans,sans-serif;
+                                font-size: 33px;
+                                font-weight: 500;
+                                margin: 0;
+                                line-height: 43px;
+                                color: #000;
+                                max-width: 550px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
-}
-
-
-
-.inner-container {
-    display: flex;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1150px;
-    margin: 0 auto;
-}
-
-.link-title {
-    color: #fff;
-    font-size: 13px;
-    font-family: Fira Sans,sans-serif;
-    font-weight: 400;
-    margin: 0;
-}
-
-.link-container {
-    display: flex;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -moz-align-items: flex-start;
-    -ms-align-items: flex-start;
-    align-items: flex-start;
-    margin-top: 15px;
-}
-
-.title {
-    font-family: Fira Sans,sans-serif;
-    font-size: 33px;
-    font-weight: 500;
-    margin: 0;
-    line-height: 43px;
-    color: #000;
-    max-width: 550px;
-    text-align: center;
 }
 
 /*.ornament.blue-ornament-left {
