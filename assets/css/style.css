@@ -11,7 +11,7 @@
 .header-parent .static-header-parent .header-container {
   position: relative;
 }
-.header-parent .static-header-parent .header-container .top-header {
+.header-parent .header-container .top-header {
   width: 100%;
   position: absolute;
   z-index: 98;
@@ -25,79 +25,18 @@
   -ms-align-items: center;
   align-items: center;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper {
+.header-parent .header-container .top-header .logo-wrapper .spots-logo {
+  height: 28px;
+  margin: 0;
+}
+.header-parent .header-container .top-header .logo-wrapper {
   display: flex;
   -moz-align-items: center;
   -ms-align-items: center;
   align-items: center;
   margin-right: 60px;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo {
-  height: 28px;
-  margin: 0;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container {
-  display: none;
-  height: 18px;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container {
-  display: none;
-  height: 18px;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line {
-  width: 22px;
-  height: 2px;
-  background-color: #000;
-  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container {
-  display: flex;
-  -moz-flex-direction: column;
-  flex-direction: column;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: space-between;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header {
-  padding: 25px !important;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile {
-  visibility: hidden;
-  position: absolute;
-  z-index: 97;
-  width: 100%;
-  padding: 105px 25px 25px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  transform: translateY(-360px);
-  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container {
-  display: flex;
-  -moz-flex-direction: column;
-  flex-direction: column;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link {
-  color: #000;
-  font-family: Fira Sans, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: center;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link {
-  color: #000;
-  font-family: Fira Sans, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: center;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent {
+.header-parent .header-container .top-header .link-container {
   position: fixed;
   width: 100%;
   top: 0;
@@ -107,56 +46,17 @@
   transform: translateY(-120px);
   visibility: hidden;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container {
-  position: relative;
+.header-parent .header-container .top-header .hamburger-menu-container {
+  display: none;
+  height: 18px;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  padding: 15px 50px;
+.header-parent .header-container .top-header .hamburger-menu-container .line {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  transition: all .3s cubic-bezier(0.694, 0, 0.335, 1);
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper {
-  display: flex;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  margin-right: 60px;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo {
-  height: 28px;
-  margin: 0;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container {
-  width: 100%;
-  display: flex;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: space-between;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link {
-  color: #000;
-  font-family: Fira Sans, sans-serif;
-  font-size: 13px;
-  margin-right: 50px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container {
-  width: 100%;
-  display: flex;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: space-between;
-}
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container {
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .line .hamburger-menu-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -165,13 +65,10 @@
   justify-content: space-between;
   -ms-flex-pack: space-between;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line {
-  width: 22px;
-  height: 2px;
-  background-color: #000;
-  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header {
+  padding: 25px !important;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile {
+.header-parent .header-container .link-mobile {
   visibility: hidden;
   position: absolute;
   z-index: 97;
@@ -182,7 +79,7 @@
   transform: translateY(-360px);
   transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container {
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -190,7 +87,98 @@
   -ms-align-items: center;
   align-items: center;
 }
-.header-parent .static-header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container .link {
+.header-parent .header-container .top-header .link-container .link {
+  color: #000;
+  font-family: Fira Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container {
+  position: relative;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 15px 50px;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper {
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-right: 60px;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo {
+  height: 28px;
+  margin: 0;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container {
+  width: 100%;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link {
+  color: #000;
+  font-family: Fira Sans, sans-serif;
+  font-size: 13px;
+  margin-right: 50px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container {
+  width: 100%;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container {
+  display: flex;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile {
+  visibility: hidden;
+  position: absolute;
+  z-index: 97;
+  width: 100%;
+  padding: 105px 25px 25px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-360px);
+  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container {
+  display: flex;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container .link {
   color: #000;
   font-family: Fira Sans, sans-serif;
   font-size: 13px;
@@ -243,17 +231,17 @@
   background-position: 50%;
   background-repeat: no-repeat;
 }
-.home-section-1-parent .background .inner-container {
+.home-section-1-parent .inner-container {
   z-index: 1;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 150px;
 }
-.home-section-1-parent .background .inner-container .inner-container {
+.home-section-1-parent .inner-container {
   padding: 0 120px;
 }
-.home-section-1-parent .background .inner-container .entry-container {
+.home-section-1-parent .inner-container .entry-container {
   display: flex;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -267,7 +255,7 @@
   transition: clip-path 0.5s ease;
   transition: clip-path 0.5s ease, -webkit-clip-path 0.5s ease;
 }
-.home-section-1-parent .background .inner-container .entry-container .title {
+.home-section-1-parent .inner-container .entry-container .title {
   color: #000;
   font-family: Fira Sans, sans-serif;
   font-weight: 500;
@@ -277,7 +265,7 @@
   margin-bottom: 30px;
   text-align: justify;
 }
-.home-section-1-parent .background .inner-container .entry-container .title .desc {
+.home-section-1-parent .inner-container .entry-container .title .desc {
   font-size: 14px;
   line-height: 24px;
   font-family: Fira Sans, sans-serif;
@@ -285,12 +273,12 @@
   max-width: 375px;
   margin-bottom: 30px;
 }
-.home-section-1-parent .background .inner-container .entry-container .title .desc .part-text-logo {
+.home-section-1-parent .inner-container .entry-container .title .desc .part-text-logo {
   font-family: Fira Sans, sans-serif;
   color: #646464;
   font-size: 14px;
 }
-.home-section-1-parent .background .inner-container .entry-container .title .desc .ext-link {
+.home-section-1-parent .inner-container .entry-container .title .desc .ext-link {
   display: inline-block;
   vertical-align: top;
 }
