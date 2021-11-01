@@ -30,9 +30,6 @@
                     .spots-logo {
                         height: 28px;
                         margin: 0;
-                        .hamburger-menu-container {
-                            display: none;
-                            height: 18px;
                             .hamburger-menu-container {
                                 display: none;
                                 height: 18px;
@@ -69,13 +66,6 @@
                                                     -moz-align-items: center;
                                                     -ms-align-items: center;
                                                     align-items: center;
-                                                    .link {
-                                                        color: #000;
-                                                        font-family: Fira Sans,sans-serif;
-                                                        font-size: 13px;
-                                                        font-weight: 500;
-                                                        line-height: 30px;
-                                                        text-align: center;
                                                         .link {
                                                             color: #000;
                                                             font-family: Fira Sans,sans-serif;
@@ -108,23 +98,6 @@
                                                                             .spots-logo {
                                                                                 height: 28px;
                                                                                 margin: 0;
-                                                                                .link-container {
-                                                                                    width: 100%;
-                                                                                    display: flex;
-                                                                                    -moz-align-items: center;
-                                                                                    -ms-align-items: center;
-                                                                                    align-items: center;
-                                                                                    -moz-justify-content: space-between;
-                                                                                    -ms-justify-content: space-between;
-                                                                                    justify-content: space-between;
-                                                                                    -ms-flex-pack: space-between;
-                                                                                    .link {
-                                                                                        color: #000;
-                                                                                        font-family: Fira Sans,sans-serif;
-                                                                                        font-size: 13px;
-                                                                                        margin-right: 50px;
-                                                                                        font-weight: 500;
-                                                                                        transition: all .3s ease;
                                                                                         .link-container {
                                                                                             width: 100%;
                                                                                             display: flex;
@@ -178,10 +151,6 @@
                                                                                                     }
                                                                                                 }
                                                                                             }
-                                                                                            
-                                                                                        }
-                                                                                        
-                                                                                    }
                                                                                 }
                                                                             }
                                                                         }
@@ -189,14 +158,13 @@
                                                                 }
                                                             }
                                                         }
-                                                    }
                                                 }
                                             }
                                         }
                                     }
                                 }
                             }
-                        }
+                        
                     }
                 }
             }
@@ -680,7 +648,7 @@ a {
     margin-top: 15px;
 }
 
-.link-container a {
+/*.link-container a {
     font-family: Fira Sans,sans-serif;
     font-weight: 500;
     line-height: 22px;
@@ -688,7 +656,7 @@ a {
     font-size: 13px;
     cursor: pointer;
     transition: all .3s ease;
-}
+}*/
 
 .column-three {
     -ms-align-self: flex-start;
