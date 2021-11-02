@@ -360,28 +360,25 @@
   position: relative;
   z-index: 3;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament {
+.home-section-3-parent .ornament.blue-ornament {
   top: 210px;
   left: 25px;
 }
 .home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament {
   position: absolute;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img {
+.home-section-3-parent .ornament .ornament-img {
   transform: translate(-50%, -50%);
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament {
+.home-section-3-parent .ornament.red-ornament {
   top: 400px;
   right: -140px;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img {
-  transform: translate(-50%, -50%);
-}
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament {
+.home-section-3-parent .ornament .yellow-ornament {
   top: 30px;
   right: -110px;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament .green-ornament {
+.home-section-3-parent .ornament .green-ornament {
   top: 240px;
   left: -30px;
   z-index: 2;
@@ -395,7 +392,7 @@
   line-height: 43px;
   margin-bottom: 30px;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament .green-ornament .title .desc {
+.home-section-3-parent .inner-container .column-container .right .desc {
   font-family: Fira Sans, sans-serif;
   color: grey;
   font-size: 14px;
@@ -406,7 +403,7 @@
 .home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament .green-ornament .title .desc p :last-child {
   margin-bottom: 0;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament .green-ornament .title .desc p :last-child .entry-btn {
+.home-section-3-parent .inner-container .column-container .right .entry-btn {
   background-color: #105fda;
   color: #fff;
   width: 176px;
