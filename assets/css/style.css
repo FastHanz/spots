@@ -392,7 +392,7 @@
   line-height: 43px;
   margin-bottom: 30px;
 }
-.home-section-3-parent .inner-container .column-container .right .desc {
+.home-section-3-parent .inner-container .column-container.right .desc {
   font-family: Fira Sans, sans-serif;
   color: grey;
   font-size: 14px;
@@ -403,7 +403,7 @@
 .home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament .green-ornament .title .desc p :last-child {
   margin-bottom: 0;
 }
-.home-section-3-parent .inner-container .column-container .right .entry-btn {
+.home-section-3-parent .inner-container .column-container.right .entry-btn {
   background-color: #105fda;
   color: #fff;
   width: 176px;
@@ -463,8 +463,8 @@
   -ms-flex-pack: space-between;
   width: 100%;
 }
-.home-section-4-parent .inner-container .title .desc .company-logo-container .partner-logo {
-  width: 80px;
+.home-section-4-outer-container .home-section-4-parent .inner-container .company-logo-container .partner-logo {
+  width: 120px;
 }
 .home-section-4-parent .inner-container .title .desc .company-logo-container .partner-logo .separator {
   width: 100%;
@@ -546,9 +546,6 @@
   color: #000;
   max-width: 550px;
   text-align: center;
-}
-.home-section-4-outer-container .home-section-4-parent .inner-container .company-logo-container .partner-logo {
-  width: 120px;
 }
 
 /*.ornament.blue-ornament-left {
