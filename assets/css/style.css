@@ -114,7 +114,7 @@
   height: 28px;
   margin: 0;
 }
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container {
+.header-parent .header-container .top-header .link-container {
   width: 100%;
   display: flex;
   -moz-align-items: center;
@@ -201,7 +201,7 @@
   text-rendering: optimizeLegibility;
   line-height: 1.1;
 }
-.home-section-1-parent .background .background {
+.home-section-1-parent .background {
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -218,9 +218,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 150px;
-}
-.home-section-1-parent .inner-container {
-  padding: 0 120px;
 }
 .home-section-1-parent .inner-container .entry-container {
   display: flex;
@@ -244,7 +241,6 @@
   line-height: 43px;
   max-width: 375px;
   margin-bottom: 30px;
-  text-align: justify;
 }
 .home-section-1-parent .inner-container .entry-container .desc {
   font-size: 14px;
@@ -420,7 +416,7 @@
   width: 100%;
 }
 
-.home-section-4-parent {
+.home-section-4-outer-container .home-section-4-parent {
   width: 100%;
   padding: 70px 60px;
 }
@@ -617,16 +613,6 @@ a {
   -ms-align-items: flex-start;
   align-items: flex-start;
   margin-top: 15px;
-}
-
-.link-container a {
-  font-family: Fira Sans, sans-serif;
-  font-weight: 500;
-  line-height: 22px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .column-three {
