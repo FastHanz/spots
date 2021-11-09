@@ -95,10 +95,10 @@
   font-weight: 500;
   transition: all .3s ease;
 }
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container {
+.header-parent .header-container {
   position: relative;
 }
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header {
+.header-parent .header-container .top-header .logo-wrapper .spots-logo   .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   padding: 15px 50px;
@@ -109,10 +109,6 @@
   -ms-align-items: center;
   align-items: center;
   margin-right: 60px;
-}
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo {
-  height: 28px;
-  margin: 0;
 }
 .header-parent .header-container .top-header .link-container {
   width: 100%;
@@ -150,14 +146,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   transform: translateY(-360px);
   transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
-}
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container {
-  display: flex;
-  -moz-flex-direction: column;
-  flex-direction: column;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
 }
 .header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container .link {
   color: #000;
