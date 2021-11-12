@@ -266,17 +266,13 @@
   line-height: 24px;
   width: 100%;
 }
-.home-section-2-parent .inner-container .column-wrapper .column-container .title .no-wrap .desc .icon {
+.home-section-2-parent .inner-container .column-wrapper .column-container .title .icon {
   height: 55px;
   margin-bottom: 15px;
 }
 .home-section-2-parent .inner-container .column-wrapper .column-container .title .no-wrap .desc .icon .column-container {
   width: 33.33333333%;
   padding: 20px 35px;
-}
-.home-section-2-parent .inner-container .column-wrapper .column-container .title .no-wrap .desc .icon .column-container .icon {
-  height: 55px;
-  margin-bottom: 15px;
 }
 
 .home-section-3-parent {
