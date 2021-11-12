@@ -113,7 +113,7 @@
   justify-content: space-between;
   -ms-flex-pack: space-between;
 }
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line {
+.header-parent .header-container .top-header .hamburger-menu-container .line {
   width: 22px;
   height: 2px;
   background-color: #000;
@@ -130,7 +130,7 @@
   transform: translateY(-360px);
   transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
 }
-.header-parent .header-container .top-header .logo-wrapper .spots-log .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper .spots-logo .link-container .link .link-container .hamburger-menu-container .line .link-mobile .link-container .link {
+.header-parent .header-container .link-mobile .link-container .link {
   color: #000;
   font-family: Fira Sans, sans-serif;
   font-size: 13px;
@@ -259,7 +259,7 @@
 .home-section-2-parent .inner-container .column-wrapper .column-container .title .no-wrap {
   white-space: nowrap;
 }
-.home-section-2-parent .inner-container .column-wrapper .column-container .title .no-wrap .desc {
+.home-section-2-parent .inner-container .column-wrapper .column-container .desc {
   font-size: 14px;
   color: #646464;
   max-width: 270px;
