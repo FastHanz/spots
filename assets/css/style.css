@@ -36,7 +36,7 @@
   align-items: center;
   margin-right: 60px;
 }
-.header-parent .header-container .top-header .link-container {
+.header-parent .sticky-header-parent {
   position: fixed;
   width: 100%;
   top: 0;
@@ -77,7 +77,8 @@
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   transform: translateY(-360px);
-  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+  transition: all 0.3s
+  cubic-bezier(0.694, 0, 0.335, 1);
 }
 .header-parent .header-container .top-header .link-container .link {
   color: #000;
@@ -95,7 +96,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   padding: 15px 50px;
 }
-.header-parent .header-container .top-header .logo-wrapper .spots-logo .hamburger-menu-container .hamburger-menu-container .line .hamburger-menu-container .top-header .link-mobile .link-container .link .link .sticky-header-parent .header-container .top-header .logo-wrapper {
+.header-parent .header-container .top-header .logo-wrapper {
   display: flex;
   -moz-align-items: center;
   -ms-align-items: center;
