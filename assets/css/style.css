@@ -427,18 +427,12 @@
   height: 1px;
   background-color: #dedede;
 }
-.home-section-4-parent .inner-container .title .desc .company-logo-container .partner-logo .separator .try-demo-parent {
-  height: 100vh;
-  padding: 0 25px;
-  display: flex;
-  -moz-flex-direction: column;
-  flex-direction: column;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
+.try-demo-parent {
+  width: 100%;
+  padding: 90px-80px;
+  position: relative;
+  overflow: hidden;
 }
-
 .footer-parent {
   background-color: #15183a;
   width: 100%;

@@ -452,15 +452,10 @@
                             height: 1px;
                             background-color: #dedede;
                             .try-demo-parent {
-                                height: 100vh;
-                                padding: 0 25px;
-                                display: flex;
-                                -moz-flex-direction: column;
-                                flex-direction: column;
-                                -moz-justify-content: center;
-                                -ms-justify-content: center;
-                                justify-content: center;
-                                -ms-flex-pack: center;
+                                width: 100%;
+                                padding: 90px-80px;
+                                position: relative;
+                                overflow: hidden;
                             }
                         }
                     }
