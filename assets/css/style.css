@@ -356,9 +356,6 @@
   line-height: 24px;
   margin-bottom: 30px;
 }
-.home-section-3-parent .inner-container .column-container .right .left .image-container .image .blue-ornament .ornament .ornament-img .red-ornament .ornament-img .yellow-ornament .green-ornament .title .desc p :last-child {
-  margin-bottom: 0;
-}
 .home-section-3-parent .inner-container .column-container.right .entry-btn {
   background-color: #105fda;
   color: #fff;
